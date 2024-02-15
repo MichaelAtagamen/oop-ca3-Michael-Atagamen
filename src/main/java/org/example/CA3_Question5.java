@@ -22,6 +22,7 @@ public class CA3_Question5
             System.out.print("Enter command (takeoff, land, next, quit): ");
             command = scanner.next();
 
+
             switch (command.toLowerCase()) {
                 case "takeoff":
                     String takeoffFlight = scanner.next();
