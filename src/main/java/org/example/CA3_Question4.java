@@ -48,6 +48,7 @@ public class CA3_Question4 {
      */
     public static void main(String[] args) throws FileNotFoundException {
         String[] files = {"tags_valid.txt", "tags_invalid.txt"};
+
         for (String fName : files) {
             System.out.print(fName + ": ");
             if (validate(fName)) {
