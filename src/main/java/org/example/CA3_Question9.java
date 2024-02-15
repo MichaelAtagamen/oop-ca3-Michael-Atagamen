@@ -21,6 +21,7 @@ public class CA3_Question9
 
     public CA3_Question9(int[][] maze, int ex, int ey) {
         this.maze = maze; this.ex = ex; this.ey = ey;
+
         this.visited = new boolean[maze.length][maze[0].length];
         this.path = new Stack<>();
     }
