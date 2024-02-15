@@ -14,6 +14,7 @@ public class CA3_Question3 {
         // Create a TreeMap to store identifiers and their occurrences with line numbers
         TreeMap<String, StringBuilder> identifierMap = new TreeMap<>();
 
+
         try (Scanner scanner = new Scanner(new File(fileName))) {
             int lineNumber = 0;
 
