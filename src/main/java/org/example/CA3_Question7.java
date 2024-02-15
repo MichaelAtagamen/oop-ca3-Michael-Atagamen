@@ -21,6 +21,7 @@ public class CA3_Question7 {
     }
 
     // Map to manage separate queues for each stock symbol
+
     private static Map<String, Queue<Block>> sharesMap = new HashMap<>();
     private static Scanner in = new Scanner(System.in);
 
