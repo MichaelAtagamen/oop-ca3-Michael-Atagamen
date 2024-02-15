@@ -12,6 +12,7 @@ public class CA3_Question6 {
     // Class to represent a block of shares
     static class Block {
         int quantity;
+
         double price;
 
         public Block(int quantity, double price) {
