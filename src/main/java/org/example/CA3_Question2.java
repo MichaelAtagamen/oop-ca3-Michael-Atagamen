@@ -40,6 +40,7 @@ public class CA3_Question2
      */
     private static void fill(int r, int c, int[][] arr) {
         Stack<Pair> stack = new Stack<>();
+
         int fillNumber = 1;
 
         // Push the starting coordinates onto the stack
