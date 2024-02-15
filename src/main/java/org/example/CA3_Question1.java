@@ -9,6 +9,8 @@ import java.util.Stack;
 public class CA3_Question1
 {
     private static Stack<Integer> drivewayStack = new Stack<>();
+
+
     private static Stack<Integer> streetStack = new Stack<>();
 
     public static void runSimulation()
