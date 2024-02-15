@@ -19,6 +19,7 @@ public class CA3_Question10 {
             Scanner scanner = new Scanner(new File("city_distances.txt"));
 
             // Map to store direct connections between cities
+
             Map<String, TreeSet<DistanceTo>> cityConnections = new HashMap<>();
 
             // Priority queue for the algorithm
